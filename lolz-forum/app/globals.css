@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #0f1419;
+  --bg-secondary: #1c1f26;
+  --bg-hover: #252932;
+  --border: #2f3640;
+  --text-primary: #e4e6eb;
+  --text-secondary: #8b949e;
+  --accent: #3b82f6;
+  --accent-hover: #2563eb;
+  --success: #10b981;
+}
+
+body {
+  color: var(--text-primary);
+  background: var(--bg-primary);
+  font-feature-settings: "kern";
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
